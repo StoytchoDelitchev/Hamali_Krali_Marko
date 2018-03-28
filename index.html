@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<!-- windows-1251 -->
+<TITLE>likework.eu</TITLE>
+<META NAME="AUTHOR" CONTENT="Stoytcho Delitchev">
+    <link rel="shortcut icon" href="http://likework.eu/face-smile.png"/>
+<style type="text/css">
+<!-- -->
+td  , h1{color: #000000; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:26px; font-weight:bold}
+</style>
+
+<style>
+button.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 45px;
+	border: 5px solid green;
+	transition: 0.4s;
+	max-width:750px;
+}
+
+button.accordion.active, button.accordion:hover {
+	background-color: #ddd;
+}
+
+div.panel {
+	padding: 0 18px;
+	display: none;
+	background-color: #A3E68A;
+}
+
+div.panel.show {
+	display: block;
+}
+body {
+    background: #A3E68A
+}
+h2 {
+    display: block;
+    font-size: 2.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+p.panel {
+ style="font-size:40px";
+}
+p {max-width:740px;}
+</style>
+</head>
+<body>
+<h1>Research Site <span><p style="font-size:30px">Web Hosting by <a href="http://en.superhosting.bg/">SuperHosting.BG</a></p>
+<p style="font-size:30px">Web Site <a href="https://likework.eu/">likework.eu</a><br>
+За Хамали  
+     <a href="https://www.likework.eu/Hamali_Krali_Marko/index.php">Хамали "Крали Марко"</a>
+     </p></span></h1>
+<!--
+<div class="panel-beg">
+<p style="font-size:30px">Web Hosting by <a href="http://en.superhosting.bg/">SuperHosting.BG</a></p>
+<p style="font-size:30px">Web Site <a href="https://likework.eu/">likework.eu</a></p>
+</div>
+<h2>Projects in the Site</h2>
+  -->
+
+<button class="accordion">Хамали "Крали Марко" (Click to open/close ...)</button>
+<div class="panel" style="font-size:30px">
+  <p>LAMP (Linux, Apache, MySQL,PHP), WEB design (HTML, CSS, JavaScript, ...)</p>
+  <p>Cloud technology (cPannel, phpMyAdmin, Softaculous,...)</p>
+  <p>Programming technology (Eclipse, GitHub, ...)</p>
+  <p>Database programming tools (MySQL Workbench, ...)</p>
+   <p>likework.eu/Hamali_Krali_Marko</p>
+   <p>
+     <a href="https://www.likework.eu/Hamali_Krali_Marko/index.php">Хамали "Крали Марко"</a></p>
+</div>
+<button class="accordion">QA for project using CiviCRM (latest 4.6 version) with Drupal 7  (Click to open/close ...)</button>
+<div class="panel" style="font-size:30px">
+<p style="font-size:30px">
+  <a href="https://www.likework.eu/drupal7/civicrm">QA experimental installation  CiviCRM 4.6.22 for Drupal 7.51</a></p>
+  <p style="font-size:30px"> 
+  <a href="https://www.likework.eu/drupal7/?q=civicrm/dashboard">QA CiviCRM 4.6.22 Drupal 7.51 direct address</a></p>
+  <p>See:</p>
+  <p style="font-size:20px">CiviCRM 4.6.22: 
+  <a href="https://civicrm.org">CIVICRM</a></p>
+  <p style="font-size:20px">Drupal: 
+  <a href="https://www.drupal.org/">Drupal</a></p>
+
+</div>
+
+<button class="accordion">Research about technologies (Click to open/close ...)</button>
+<div class="panel" style="font-size:30px">
+  <p>LAMP (Linux, Apache, MySQL,PHP), WEB design (HTML, CSS, JavaScript, ...)</p>
+  <p>Cloud technology (cPannel, phpMyAdmin, Softaculous,...)</p>
+  <p>Programming technology (Eclipse, GitHub, Git, ...)</p>
+  <p>Database programming tools (MySQL Workbench, ...)</p>
+</div>
+
+<button class="accordion">Celebration of 50 years of Central Institute of Computer Technik and Technologies (Click to open/close ...)</button>
+<div>
+<a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/65058522@N07/albums/72157676030949285" title="50 Години ЦИИТ"><img src="https://c3.staticflickr.com/6/5607/30427646850_9e89837ce9_z.jpg" width="640" height="360" alt="50 Години ЦИИТ"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
+
+</body>
+</html>
